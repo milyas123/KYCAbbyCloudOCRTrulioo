@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kyc_azakaw_core:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

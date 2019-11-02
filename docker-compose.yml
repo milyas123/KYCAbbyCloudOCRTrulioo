@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kyc_azakaw_core:
+    image: ${DOCKER_REGISTRY-}kycazakawcore
+    build:
+      context: .
+      dockerfile: KYC_AzaKaw_Core/Dockerfile
